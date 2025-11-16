@@ -1,0 +1,11 @@
+torch
+torchvision
+numpy>=1.22,<2
+pandas>=1.5,<2.1
+scipy
+scikit-learn
+matplotlib
+networkx
+graphtools
+jupyter
+scprep==1.2.3
