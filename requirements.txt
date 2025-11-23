@@ -9,3 +9,7 @@ networkx
 graphtools
 jupyter
 scprep==1.2.3
+kagglehub
+scanpy
+anndata
+h5py
