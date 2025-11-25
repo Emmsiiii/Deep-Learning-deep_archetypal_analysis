@@ -1,0 +1,117 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: s226625.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/s226625-danmarks-tekniske-universitet-dtu/midaa-neurips2021-master/weave
+Running MIDAA unsupervised...
+ELBO: 10671873.00000  : 100%|██████████| 1000/1000 [01:02<00:00, 16.09it/s]
+Z shape: (1000, 9)
+A shape: (10, 9)
+Computing UMAP...
+Latent dim: 9
+Feature dim: 2000
+MLP Decoder initialized with output_dim = 2000
+Epoch 1/40 — loss: 0.3165
+Epoch 2/40 — loss: 0.3041
+Epoch 3/40 — loss: 0.2962
+Epoch 4/40 — loss: 0.2898
+Epoch 5/40 — loss: 0.2863
+Epoch 6/40 — loss: 0.2836
+Epoch 7/40 — loss: 0.2819
+Epoch 8/40 — loss: 0.2807
+Epoch 9/40 — loss: 0.2795
+Epoch 10/40 — loss: 0.2785
+Epoch 11/40 — loss: 0.2776
+Epoch 12/40 — loss: 0.2769
+Epoch 13/40 — loss: 0.2761
+Epoch 14/40 — loss: 0.2758
+Epoch 15/40 — loss: 0.2752
+Epoch 16/40 — loss: 0.2750
+Epoch 17/40 — loss: 0.2743
+Epoch 18/40 — loss: 0.2741
+Epoch 19/40 — loss: 0.2733
+Epoch 20/40 — loss: 0.2733
+Epoch 21/40 — loss: 0.2728
+Epoch 22/40 — loss: 0.2723
+Epoch 23/40 — loss: 0.2721
+Epoch 24/40 — loss: 0.2714
+Epoch 25/40 — loss: 0.2713
+Epoch 26/40 — loss: 0.2712
+Epoch 27/40 — loss: 0.2709
+Epoch 28/40 — loss: 0.2702
+Epoch 29/40 — loss: 0.2700
+Epoch 30/40 — loss: 0.2697
+Epoch 31/40 — loss: 0.2689
+Epoch 32/40 — loss: 0.2692
+Epoch 33/40 — loss: 0.2689
+Epoch 34/40 — loss: 0.2684
+Epoch 35/40 — loss: 0.2682
+Epoch 36/40 — loss: 0.2676
+Epoch 37/40 — loss: 0.2672
+Epoch 38/40 — loss: 0.2672
+Epoch 39/40 — loss: 0.2668
+Epoch 40/40 — loss: 0.2666
+Latent dim = 9, Genes = 2000
+Training Conv1DDecoder...
+[Conv1D] Epoch 1/40 — loss: 0.5867
+[Conv1D] Epoch 2/40 — loss: 0.3153
+[Conv1D] Epoch 3/40 — loss: 0.3199
+[Conv1D] Epoch 4/40 — loss: 0.3213
+[Conv1D] Epoch 5/40 — loss: 0.3221
+[Conv1D] Epoch 6/40 — loss: 0.3216
+[Conv1D] Epoch 7/40 — loss: 0.3217
+[Conv1D] Epoch 8/40 — loss: 0.3218
+[Conv1D] Epoch 9/40 — loss: 0.3217
+[Conv1D] Epoch 10/40 — loss: 0.3210
+[Conv1D] Epoch 11/40 — loss: 0.3203
+[Conv1D] Epoch 12/40 — loss: 0.3199
+[Conv1D] Epoch 13/40 — loss: 0.3188
+[Conv1D] Epoch 14/40 — loss: 0.3178
+[Conv1D] Epoch 15/40 — loss: 0.3168
+[Conv1D] Epoch 16/40 — loss: 0.3157
+[Conv1D] Epoch 17/40 — loss: 0.3140
+[Conv1D] Epoch 18/40 — loss: 0.3121
+[Conv1D] Epoch 19/40 — loss: 0.3088
+[Conv1D] Epoch 20/40 — loss: 0.3061
+[Conv1D] Epoch 21/40 — loss: 0.3042
+[Conv1D] Epoch 22/40 — loss: 0.3031
+[Conv1D] Epoch 23/40 — loss: 0.3020
+[Conv1D] Epoch 24/40 — loss: 0.3001
+[Conv1D] Epoch 25/40 — loss: 0.2976
+[Conv1D] Epoch 26/40 — loss: 0.2950
+[Conv1D] Epoch 27/40 — loss: 0.2918
+[Conv1D] Epoch 28/40 — loss: 0.2890
+[Conv1D] Epoch 29/40 — loss: 0.2871
+[Conv1D] Epoch 30/40 — loss: 0.2846
+[Conv1D] Epoch 31/40 — loss: 0.2827
+[Conv1D] Epoch 32/40 — loss: 0.2810
+[Conv1D] Epoch 33/40 — loss: 0.2793
+[Conv1D] Epoch 34/40 — loss: 0.2778
+[Conv1D] Epoch 35/40 — loss: 0.2766
+[Conv1D] Epoch 36/40 — loss: 0.2754
+[Conv1D] Epoch 37/40 — loss: 0.2743
+[Conv1D] Epoch 38/40 — loss: 0.2734
+[Conv1D] Epoch 39/40 — loss: 0.2731
+[Conv1D] Epoch 40/40 — loss: 0.2721
+Conv1D recon shape: (1000, 2000)
+Z shape: (1000, 9)
+A shape: (10, 9)
+Labels OK, #classes: 21
+XC1 shape: (2000, 10)
+XC2 shape: (784, 10)
+XC1 shape: (2000, 10)
+XC2 shape: (784, 10)
+A shape: (10, 9)
+A_dec shape: (10, 784)
+adata.X shape: (1000, 2000)
+A shape: (10, 9)
+A_dec shape: (10, 784)
+adata.X shape: (1000, 2000)
+XC1 shape: (2000, 10)
+XC2 shape: (784, 10)
+A shape: (10, 9)
+A_dec shape: (10, 784)
+adata.X shape: (1000, 2000)
+XC1 shape: (2000, 10)
+XC2 shape: (784, 10)
+XC1 shape: (2000, 10)
+XC2 shape: (2000, 10)
+[scRNA] Consistency: 1.0000, ISI: 0.4235

@@ -1,0 +1,37 @@
+{
+  "os": "macOS-15.6-arm64-arm-64bit",
+  "python": "CPython 3.12.2",
+  "startedAt": "2025-11-25T15:16:43.568591Z",
+  "program": "/Users/emmsi/Documents/GitHub/Deep-Learning-deep_archetypal_analysis/Project_final.ipynb",
+  "codePath": "/Users/emmsi/Documents/GitHub/Deep-Learning-deep_archetypal_analysis/Project_final.ipynb",
+  "codePathLocal": "Project_final.ipynb",
+  "git": {
+    "remote": "https://github.com/Emmsiiii/Deep-Learning-deep_archetypal_analysis.git",
+    "commit": "d6b17a3c64fea1f5148d9dbcb34172ffa8f4c980"
+  },
+  "email": "s226625@dtu.dk",
+  "root": "/Users/emmsi/Documents/GitHub/Deep-Learning-deep_archetypal_analysis",
+  "host": "Mac.home",
+  "executable": "/opt/anaconda3/bin/python",
+  "cpu_count": 14,
+  "cpu_count_logical": 14,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "411228045312"
+    }
+  },
+  "memory": {
+    "total": "38654705664"
+  },
+  "apple": {
+    "name": "Apple M4 Max",
+    "ecpuCores": 4,
+    "pcpuCores": 10,
+    "gpuCores": 32,
+    "memoryGb": 36,
+    "swapTotalBytes": "2147483648",
+    "ramTotalBytes": "38654705664"
+  },
+  "writerId": "m2hce0vc7t2npu3vlk5dfjhhkx78f0zf"
+}

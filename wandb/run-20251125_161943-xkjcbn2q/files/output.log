@@ -1,0 +1,66 @@
+[34m[1mwandb[0m: Initializing weave.
+[36m[1mweave[0m: Logged in as Weights & Biases user: s226625.
+[36m[1mweave[0m: View Weave data at https://wandb.ai/s226625-danmarks-tekniske-universitet-dtu/midaa-scrna/weave
+ELBO: 20704338.00000  : 100%|██████████| 1000/1000 [02:51<00:00,  5.82it/s]
+Z shape: (5000, 9)
+A shape: (10, 9)
+MIDAA (MNIST) Archetype Consistency: 1.0000
+MIDAA (MNIST) ISI: 0.2628
+Latent dim: 9
+Epoch 1/40 — loss: 2.5890
+Epoch 2/40 — loss: 1.2458
+Epoch 3/40 — loss: 1.0693
+Epoch 4/40 — loss: 0.9555
+Epoch 5/40 — loss: 0.9012
+Epoch 6/40 — loss: 0.8701
+Epoch 7/40 — loss: 0.8468
+Epoch 8/40 — loss: 0.8280
+Epoch 9/40 — loss: 0.8101
+Epoch 10/40 — loss: 0.7941
+Epoch 11/40 — loss: 0.7826
+Epoch 12/40 — loss: 0.7701
+Epoch 13/40 — loss: 0.7610
+Epoch 14/40 — loss: 0.7505
+Epoch 15/40 — loss: 0.7433
+Epoch 16/40 — loss: 0.7349
+Epoch 17/40 — loss: 0.7282
+Epoch 18/40 — loss: 0.7212
+Epoch 19/40 — loss: 0.7153
+Epoch 20/40 — loss: 0.7092
+Epoch 21/40 — loss: 0.7054
+Epoch 22/40 — loss: 0.6993
+Epoch 23/40 — loss: 0.6942
+Epoch 24/40 — loss: 0.6888
+Epoch 25/40 — loss: 0.6851
+Epoch 26/40 — loss: 0.6812
+Epoch 27/40 — loss: 0.6775
+Epoch 28/40 — loss: 0.6744
+Epoch 29/40 — loss: 0.6699
+Epoch 30/40 — loss: 0.6661
+Epoch 31/40 — loss: 0.6641
+Epoch 32/40 — loss: 0.6627
+Epoch 33/40 — loss: 0.6596
+Epoch 34/40 — loss: 0.6574
+Epoch 35/40 — loss: 0.6541
+Epoch 36/40 — loss: 0.6521
+Epoch 37/40 — loss: 0.6474
+Epoch 38/40 — loss: 0.6461
+Epoch 39/40 — loss: 0.6447
+Epoch 40/40 — loss: 0.6413
+Z shape: (5000, 9)
+A shape: (10, 9)
+S: NOT present in this MIDAA version
+[MNIST] Consistency: 1.0000, ISI: 0.6187
+Dataset path: /Users/emmsi/.cache/kagglehub/datasets/alexandervc/scrnaseq-scatacseq-challenge-at-neurips-2021/versions/1
+Loading H5AD file: /Users/emmsi/.cache/kagglehub/datasets/alexandervc/scrnaseq-scatacseq-challenge-at-neurips-2021/versions/1/GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad
+Loaded AnnData: AnnData object with n_obs × n_vars = 69249 × 129921
+    obs: 'GEX_pct_counts_mt', 'GEX_n_counts', 'GEX_n_genes', 'GEX_size_factors', 'GEX_phase', 'ATAC_nCount_peaks', 'ATAC_atac_fragments', 'ATAC_reads_in_peaks_frac', 'ATAC_blacklist_fraction', 'ATAC_nucleosome_signal', 'cell_type', 'batch', 'ATAC_pseudotime_order', 'GEX_pseudotime_order', 'Samplename', 'Site', 'DonorNumber', 'Modality', 'VendorLot', 'DonorID', 'DonorAge', 'DonorBMI', 'DonorBloodType', 'DonorRace', 'Ethnicity', 'DonorGender', 'QCMeds', 'DonorSmoker'
+    var: 'feature_types', 'gene_id'
+    uns: 'ATAC_gene_activity_var_names', 'dataset_id', 'genome', 'organism'
+    obsm: 'ATAC_gene_activity', 'ATAC_lsi_full', 'ATAC_lsi_red', 'ATAC_umap', 'GEX_X_pca', 'GEX_X_umap'
+    layers: 'counts'
+Shape: (69249, 129921)
+Subset to 5000 cells: (1000, 129921)
+Removed zero-count genes: (1000, 128775)
+Selected 2000 HVGs: (1000, 2000)
+Dense matrix ready for MIDAA: (1000, 2000)

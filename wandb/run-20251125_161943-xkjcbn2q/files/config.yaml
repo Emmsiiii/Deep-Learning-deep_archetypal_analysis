@@ -1,0 +1,65 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            c1gbfzgrgbnkd9b8njs5iea05topoq1q:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 32
+                    memoryGb: 36
+                    name: Apple M4 Max
+                    pcpuCores: 10
+                    ramTotalBytes: "38654705664"
+                    swapTotalBytes: "2147483648"
+                codePath: /Users/emmsi/Documents/GitHub/Deep-Learning-deep_archetypal_analysis/Project_final.ipynb
+                codePathLocal: Project_final.ipynb
+                cpu_count: 14
+                cpu_count_logical: 14
+                disk:
+                    /:
+                        total: "994662584320"
+                        used: "411291877376"
+                email: s226625@dtu.dk
+                executable: /opt/anaconda3/bin/python
+                git:
+                    commit: d6b17a3c64fea1f5148d9dbcb34172ffa8f4c980
+                    remote: https://github.com/Emmsiiii/Deep-Learning-deep_archetypal_analysis.git
+                host: Mac.home
+                memory:
+                    total: "38654705664"
+                os: macOS-15.6-arm64-arm-64bit
+                program: /Users/emmsi/Documents/GitHub/Deep-Learning-deep_archetypal_analysis/Project_final.ipynb
+                python: CPython 3.12.2
+                root: /Users/emmsi/Documents/GitHub/Deep-Learning-deep_archetypal_analysis
+                startedAt: "2025-11-25T15:19:43.786775Z"
+                writerId: c1gbfzgrgbnkd9b8njs5iea05topoq1q
+        m: []
+        python_version: 3.12.2
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 41
+                - 53
+                - 54
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 41
+                - 53
+                - 54
+            "3":
+                - 2
+                - 13
+            "4": 3.12.2
+            "5": 0.23.0
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.23.0
+            "13": darwin-arm64
