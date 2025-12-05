@@ -1,0 +1,40 @@
+name: AANet
+
+channels:
+  - pytorch
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core Python
+  - python>=3.9
+  - pip
+
+  # Deep Learning (Pytorch channel)
+  - pytorch
+  - torchvision
+
+  # Data Science & Math
+  - numpy>=1.22,<2
+  - pandas>=1.5,<2.1
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - h5py
+
+  # Graphs & Networks
+  - networkx
+  - graphtools
+
+  # Bioinformatics / Single Cell
+  - scanpy
+  - anndata
+  - scprep==1.2.3
+
+  # Notebooks
+  - jupyter
+
+  # Pip-specific packages (or those better installed via pip)
+  - pip:
+    - kagglehub
