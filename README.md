@@ -1,3 +1,6 @@
+# Intro
+all code is in `Project_final.ipynb`
+
 # Environment Setup
 - From the project root, create a virtual environment: `python3 -m venv .venv`
 - Activate it: `source .venv/bin/activate` (bash/zsh), `source .venv/bin/activate.fish` (fish), or `.venv\Scripts\Activate.ps1` (Windows PowerShell)
